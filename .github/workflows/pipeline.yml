@@ -1,6 +1,6 @@
 name: Primer Pipeline CI
 
-on: 
+on:
   push:
     branches:
       - main
@@ -32,3 +32,6 @@ jobs:
 
       - name: Finalizar pipeline
         run: echo "Pipeline ejecutado correctamente"
+
+      - name: Simular fallo de pruebas
+        run: exit 1
