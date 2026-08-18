@@ -9,7 +9,6 @@ class AppApplicationTests {
 
 	@Test
 	void contextLoads() {
-		assertEquals(1, 2, "Fallo provocado intencionalmente para la prueba");
 	}
 
 }
